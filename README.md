@@ -22,7 +22,7 @@ To compile and run this program, you must have the Rust toolchain installed. The
 1. Create a new Cargo project in your terminal: `cargo new spelling_bee_solver`
 2. Navigate into the new directory: `cd spelling_bee_solver`
 3. Copy the spelling_bee_solver.rs code into the src/main.rs file, replacing its contents.
-4. Run the program directly using cargo: `cargo run`
+4. Run the program directly using cargo: `cargo run -- c 4 n b d o l e m`
 
 ## Usage
 The program requires exactly seven letters as arguments, with the first letter being the required center letter. The --columns or -c flag is optional and can be used to control the output format.
